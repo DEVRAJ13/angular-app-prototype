@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "serve:ssr:myngapp": "node dist/myngapp/server/server.mjs"
+    "serve:ssr:myngapp": "node dist/myngapp/server/server.mjs",
+    "github-build": "ng build --configuration production --base-href 'https://devraj13.github.io/angular-app-prototype/'"
   },
   "prettier": {
     "printWidth": 100,
